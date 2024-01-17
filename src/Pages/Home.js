@@ -14,6 +14,7 @@ function Home() {
     const currentDate = new Date()
     const [userSign, setUserSign] = useState("")
     const [todaySign, setTodaySign] = useState("")
+    console.log(setTodaySign)
 
     const [formsData, setFormsData] = useState({
         birthdate: ""
@@ -46,12 +47,12 @@ function Home() {
         return currentZodiacSign.sign;
     }
 
-    function getDaySign() {
-        const sign = findZodiacSign(currentDate)
-        console.log(sign)
-        setTodaySign(sign)
-        // setSee(!see)
-    }
+    // function getDaySign() {
+    //     const sign = findZodiacSign(currentDate)
+    //     console.log(sign)
+    //     setTodaySign(sign)
+    //     // setSee(!see)
+    // }
     
     function start(){
         setSee(!see)
