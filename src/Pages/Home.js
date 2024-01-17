@@ -25,7 +25,7 @@ function Home() {
     const handleSubmit = (e) => {
         e.preventDefault();
         let date = new Date(formsData.birthdate)
-        
+        console.log("clicked ")
         setUserSign(findZodiacSign(date))
         console.log("Form submitted:", formsData);
 
