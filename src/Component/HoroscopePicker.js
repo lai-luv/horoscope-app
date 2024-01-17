@@ -34,7 +34,7 @@ function HorosopePicker(props) {
                     )
                 })}
             </div>
-            <p>you want to learn about {zodiac} </p>
+            <p>you want to learn about {zodiac} ! </p>
         </div>
     )
 }
